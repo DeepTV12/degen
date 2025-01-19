@@ -18,5 +18,5 @@ def run_scripts_in_series():
 while True:
     print("Starting script execution...")
     run_scripts_in_series()
-    print("All scripts completed. Waiting for 4 hours...")
+    print("All scripts completed. Waiting for 24 hours...")
     time.sleep(24 * 60 * 60)  # Sleep for 4 hours
